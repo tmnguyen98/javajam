@@ -80,7 +80,7 @@ main {
     background-color: #FEF6C2;
 }
 
-main h2 h3 h4 p div ul{
+main h2, main h3, main h4, main p, main div, main ul, main dl{
     padding-left: 3em;
     padding-right: 2em;
 }
