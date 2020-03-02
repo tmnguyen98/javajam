@@ -6,18 +6,21 @@
     background-image: url(heroroad.jpg);
     background-size: 100%;
     height: 250px;
+    background-repeat: no-repeat;
 }
 
 #heromugs {
     background-image: url(heromugs.jpg);
     background-size: 100%;
     height: 250px;
+    background-repeat: no-repeat;
 }
 
 #heroguitar {
     background-image: url(heroguitar.jpg);
     background-size: 100%;
     height: 250px;
+    background-repeat: no-repeat;
 }
 
 body {
@@ -99,7 +102,7 @@ h4 {
     font-size: 1.2em;
     padding-left: 0.5em;
     padding-bottom: 0em;
-    border-bottom: 1em black solid;
+    border-bottom: 1px black solid;
     text-transform: uppercase;
     clear: left;
 }
