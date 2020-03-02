@@ -1,3 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+#heroroad {
+    background-image: url(heroroad.jpg);
+    background-size: 100%;
+    height: 250px;
+}
+
+#heromugs {
+    background-image: url(heromugs.jpg);
+    background-size: 100%;
+    height: 250px;
+}
+
+#heroguitar {
+    background-image: url(heroguitar.jpg);
+    background-size: 100%;
+    height: 250px;
+}
+
 body {
     background-color: #FCEBB6;
     color:#221811;
@@ -23,17 +45,44 @@ nav {
     font-weight: bold;
     font-size: 1.5em;
     padding-top: 10px;
+    float: left;
+    width: 200px;
 }
 
 nav a {
     text-decoration: none;
 }
 
+nav a:link {
+    color: #FEF6C2;
+}
+
+nav a:visited {
+    color: #D2B48C;
+}
+
+nav a:hover {
+    color: #CC9933;
+}
+
+nav ul {
+    padding-left: 0em;
+    list-style-type: none;
+}
+
 main {
     display: block;
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-left: 0em;
+    padding-right: 0em;
     padding-bottom: 2em;
+    margin-left: 200px;
+    padding-top: 0em;
+    background-color: #FEF6C2;
+}
+
+main h2 h3 h4 p div ul{
+    padding-left: 3em;
+    padding-right: 2em;
 }
 
 footer {
@@ -49,14 +98,17 @@ h4 {
     background-color: #D2B48C;
     font-size: 1.2em;
     padding-left: 0.5em;
-    padding-bottom: 0.25em;
+    padding-bottom: 0em;
+    border-bottom: 1em black solid;
+    text-transform: uppercase;
+    clear: left;
 }
 
 #wrapper {
     width: 80%;
     margin-right: auto;
     margin-left: auto;
-    background-color: #FEF6C2;
+    background-color: #231814;
     min-width: 900px;
     max-width: 1280px;
     box-shadow: 5px 5px 10px grey;
@@ -65,9 +117,21 @@ h4 {
 .details {
     padding-left: 20%;
     padding-right: 20%;
+    overflow: auto;
 }
 
 img {
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.floatleft {
+    float: left;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
+
+/*Add to compatible with most older browser*/
+header, nav, main, footer {
+    display: block;
 }
