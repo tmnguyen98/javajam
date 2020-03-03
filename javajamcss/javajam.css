@@ -134,6 +134,9 @@ img {
     padding-bottom: 2em;
 }
 
+#mobile {display: none;}
+#desktop {display: inline;}
+
 /*Add to compatible with most older browser*/
 header, nav, main, footer {
     display: block;
