@@ -137,6 +137,67 @@ img {
 #mobile {display: none;}
 #desktop {display: inline;}
 
+@media only screen and (max-width: 1024px) {
+    body {
+        margin: 0;
+        background-image: none;
+    }
+
+    #wrapper {
+        width: auto;
+        min-width: 0;
+        margin: 0;
+        padding: 0;
+        box-shadow: none;
+    }
+
+    header {
+        border-bottom: 5px solid #FEF6C2;
+    }
+
+    h1 {
+        margin-top: 0;
+        margin-bottom: 1em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        font-size: 2.5em;
+    }
+
+    nav {
+        float: none;
+        width: auto;
+        padding-top: 0;
+        margin: 10px;
+        font-size: 1.3em;
+    }
+
+    nav li {
+        display: inline-block;
+    }
+
+    nav a {
+        padding: 1em;
+        width: 8em;
+        font-weight: bold;
+        border-style: none;
+    }
+
+    nav ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    #heroroad, #heromugs, #heroguitar {
+        margin: 0;
+        padding: 0;
+    }
+
+    main {
+        margin: 0;
+        font-size: 90%;
+    }
+}
+
 /*Add to compatible with most older browser*/
 header, nav, main, footer {
     display: block;
