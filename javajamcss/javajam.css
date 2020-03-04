@@ -137,6 +137,7 @@ img {
 #mobile {display: none;}
 #desktop {display: inline;}
 
+/*Tablet device viewport size*/
 @media only screen and (max-width: 1024px) {
     body {
         margin: 0;
@@ -196,6 +197,61 @@ img {
         margin: 0;
         font-size: 90%;
     }
+}
+
+/*Smartphone device viewport size*/
+@media only screen and (max-width: 768px) {
+    header {
+        background-image: url(javajammini.jpg);
+        height: 128px;
+    }
+
+    h1 {
+        font-size: 2em;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    nav {
+        margin: 0;
+    }
+
+    nav a {
+        display: block;
+        padding: 0.2em;
+        width: auto;
+        border-bottom: 1px solid #FEF6C2;
+    }
+
+    nav li {
+        display: block;
+    }
+
+    main {
+        padding-top: 1px;
+    }
+
+    h2 {
+        padding: 0.5em 0 0 0.5em;
+    }
+
+    .details {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #heroroad, #heromugs, #heroguitar {
+        background-image: none;
+        height: auto;
+    }
+
+    .floatleft {
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+
+    #mobile { display: inline; }
+    #desktop { display: none; }
 }
 
 /*Add to compatible with most older browser*/
