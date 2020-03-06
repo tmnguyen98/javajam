@@ -137,6 +137,18 @@ img {
 #mobile {display: none;}
 #desktop {display: inline;}
 
+table {
+    margin: auto;
+    width: 90%;
+    border-spacing: 0;
+}
+
+td, th {
+    padding: 10px;
+}
+
+tr:nth-of-type(odd) {background-color: #D2B48E;}
+
 /*Tablet device viewport size*/
 @media only screen and (max-width: 1024px) {
     body {
