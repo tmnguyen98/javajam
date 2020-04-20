@@ -177,6 +177,11 @@ input, textarea {
     margin-left: 9.5em;
 } */
 
+audio {
+    display: block;
+    margin-top: 1em;
+}
+
 /*Tablet device viewport size*/
 @media only screen and (max-width: 1024px) {
     body {
