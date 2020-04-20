@@ -25,14 +25,17 @@
         <main>
             <div id="herojobs"></div>
             <h2>Jobs at JavaJam</h2>
-            <p>Want to work at JavaJam? Fill out the form below to start your application</p>
+            <p>
+                Want to work at JavaJam? Fill out the form below to start your application
+                Required fields are marked with an asterisk(*).
+            </p>
             <form method="POST" action="http://webdevbasics.net/scripts/javajam8.php">
-                <label for="myName">Name:</label>
-                    <input type="text" name="myName" id="myName">
-                <label for="myEmail">E-mail:</label>
-                    <input type="text" name="myEmail" id="myEmail">
-                <label for="myExperience">Experience:</label>
-                    <textarea name="myExperience" id="myExperience" cols="20" rows="2"></textarea>
+                <label for="myName">*Name:</label>
+                    <input type="text" name="myName" required id="myName">
+                <label for="myEmail">*E-mail:</label>
+                    <input type="email" name="myEmail" required id="myEmail">
+                <label for="myExperience">*Experience:</label>
+                    <textarea name="myExperience" required id="myExperience" cols="20" rows="2"></textarea>
 
                 <input type="submit" value="Apply Now" id="mySubmit">
             </form>
